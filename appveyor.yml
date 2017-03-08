@@ -7,8 +7,8 @@ install:
   - npm install
 
 test_script:
-  - node --nodejs_version
-  - npm --nodejs_version
+  - node --version
+  - npm --version
 
   - npm test_script
 
